@@ -1,0 +1,8 @@
+{
+    "env": {
+        "MONGO_USER": "abc",
+        "MONGO_PASSWORD": "123",
+        "MONGO_DEFAULT_DATABASE": "abc",
+        "STRIPE_KEY": "abc"
+    }
+}
