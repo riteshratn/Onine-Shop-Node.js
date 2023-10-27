@@ -1,0 +1,22 @@
+extends layouts/main-layout.pug
+
+block styles
+    link(rel="stylesheet", href="/css/product.css")
+
+block content 
+    main
+        if prods.length > 0
+            .grid
+                each product in prods
+                    article.card.product-item 
+                        header.card__header 
+                            h1.product__title #{product.title}
+                        div.card__image 
+                            img(src="https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3BlbiUyMGJvb2t8ZW58MHx8MHx8fDA%3D&w=1000&q=80", alt="A Book")
+                        div.card__content
+                            h2.product__price $19.98
+                            p.product__description A very interesting book about so many even more interesting things!
+                        .card__actions
+                            button.btn Add to Cart
+        else 
+            h1 No Products
