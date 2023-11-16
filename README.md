@@ -1,4 +1,4 @@
-# nodeCRUD
+# Node.js with CRUD
 
 ## How to run the project:
 1. Run 'npm i'
