@@ -5,7 +5,7 @@
 2. Create a .env file using .env.sample
 3. Run 'npm start'
    
-# Create a http server that provides APIs for an Ecommerce platform like Amazon. Design the database and provide CRUD operations for various entities wherever required.
+### Create a http server that provides APIs for an Ecommerce platform like Amazon. Design the database and provide CRUD operations for various entities wherever required.
 1. When a user registers, they should receive an email. There should also be option for email verification.
 2. Store the user in the database.
 3. Later validate the password with encrypted password stored in database
