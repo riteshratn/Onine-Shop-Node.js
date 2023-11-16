@@ -12,6 +12,7 @@
 4. Create other APIs when required like confirm mail, logout.
 5. Provide CRUD opetation for various entities in your app.
 6. Use express validator technique to validate request bodies.
-7. Also keeps the logging of requests that we send and creates a logging file.
-8. Move sensitive information to .env file and create .env.sample for git.
+7. I have also integrated payment feature using stripe.
+8. Also keeps the logging of requests that we send and creates a logging file.
+9. Move sensitive information to .env file and create .env.sample for git.
    
