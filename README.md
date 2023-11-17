@@ -6,6 +6,8 @@
 3. Run 'npm start'
    
 ### Create a http server that provides APIs for an Ecommerce platform like Amazon.
+* Admin can add products, read products, edit products, and delete products.
+* User can buy the products after adding the products to the cart.
 * When a user registers, they should receive an email. There should also be option for email verification.
 * Store the user in the database.
 * Later validate the password with encrypted password stored in database
